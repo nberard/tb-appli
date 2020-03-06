@@ -1,0 +1,64 @@
+li
+{
+    cursor: pointer;
+}
+
+#display-container
+{
+    font-family: Arial Black;
+    font-size: 18px;
+    text-align: center;
+}
+
+#display-type
+{
+    text-align: left;
+    color: purple;
+}
+
+#display-nom
+{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#display-container label
+{
+    color: orange;
+}
+
+.valeur
+{
+    color: blue;
+}
+
+.ui-field-contain.ui-body.ui-br
+{
+    margin-bottom: 0 !important;
+}
+
+ul#list li.hover
+{
+    background-color: #333;
+    color: #EEE;
+    font-weight: normal;
+}
+
+ul#list
+{
+    margin-top: 0 !important;
+}
+
+/*#results-list*/
+/*{*/
+    /*height: 500px;*/
+    /*overflow: scroll;*/
+/*}*/
+
+.ui-input-clear { display: none;}
+
+input#recherche
+{
+    height: 50px;
+    font-size: 20px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script type="text/javascript" charset="utf-8" src="jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="jquery.mobile-1.2.0.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="jquery.csv-0.7.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="script.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="jquery.mobile-1.2.0.min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <title>TB Appli</title>
+    <script type="text/javascript" charset="utf-8" src="cordova-2.1.0.js"></script>
+</head>
+<body>
+<!-- Home -->
+<div data-role="page" id="page1">
+    <div data-theme="a" data-role="header">
+        <h4>
+            TB Appli
+        </h4>
+    </div>
+    <div id="content" data-role="content">
+        <div id="recherche-container">
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup">
+                <label for="recherche">
+                </label>
+                <input placeholder="Entrez votre recherche" name="" id="recherche" placeholder="" value="" type="search">
+            </fieldset>
+        </div>
+        <div id="results-list">
+        <ul id="list" data-role="listview" data-divider-theme="a" data-inset="true">
+        </ul>
+        </div>
+        </div>
+        <div id="display-container" style="display: none;">
+            <div id="display-type"></div>
+            <div id="display-nom"></div>
+            <div id="display-marque"></div>
+            <label for="display-solvant_perf">Solvant de perfusion : </label><div class="valeur" id="display-solvant_perf"></div>
+            <label for="display-volume_perf">Volume de perfusion : </label><div class="valeur" id="display-volume_perf"></div>
+            <label for="display-administration">Administration : </label><div class="valeur" id="display-administration"></div>
+            <label for="display-remarques">Remarques : </label><div class="valeur" id="display-remarques"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
